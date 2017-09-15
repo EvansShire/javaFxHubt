@@ -21,7 +21,7 @@ public class Main extends Application {
         scene = new Scene(new Browser(),400,600, Color.web("#666970"));
         stage.setScene(scene);
         //scene.getStylesheets().add("webviewsample/BrowserToolbar.css");
-
+        stage.setResizable(false);//禁止拖拽边框
         stage.show();
     }
 
